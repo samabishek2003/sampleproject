@@ -4,7 +4,7 @@ body{
     justify-content: center;
     height: 100vh;
     align-items: center;
-    font-family: cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: slateblue;
 }
 .calender-container{
@@ -25,5 +25,22 @@ body{
 
 }
 .day-name{
-    
+    margin: 20px 0;
+    font-size: 20px ;
+    color: darkgray;
+    font-weight: bold;
+
+
+}
+.day-number{
+    font-size: 40px;
+    margin: 0;
+    font-weight: bold;
+
+}
+.year{
+    margin: 20px 0;
+    font-size: 20px ;
+    color: darkgray;
+    font-weight: 500;
 }
